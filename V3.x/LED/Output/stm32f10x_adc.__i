@@ -1,0 +1,1 @@
+-c --device DARMSTM -D__EVAL -g -O0 --apcs=interwork -I..\USER -I..\CMSIS -I..\FWlib\inc -I..\FWlib\src -I "C:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\Output\stm32f10x_adc.o" --omf_browse "..\Output\stm32f10x_adc.crf" --depend "..\Output\stm32f10x_adc.d" "..\FWlib\src\stm32f10x_adc.c"
