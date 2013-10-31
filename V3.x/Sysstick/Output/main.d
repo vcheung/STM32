@@ -8,3 +8,4 @@
 ..\Output\main.o: ..\CMSIS\stm32f10x.h
 ..\Output\main.o: ..\FWlib\inc\stm32f10x_rcc.h
 ..\Output\main.o: led.h
+..\Output\main.o: SysTick.h
