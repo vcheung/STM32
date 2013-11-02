@@ -136,6 +136,19 @@ void SysTick_Handler(void)
 {
 }
 
+/* I/O线中断，中断线为PB0 */
+void EXTI0_IRQHandler(void)
+{
+	if(EXTI_GetITStatus(EXTI_Line0) != RESET) //确保是否产生了EXTI Line中断
+	{
+		// LED1 取反		
+		GPIO_WriteBit(GPIOA, GPIO_Pin_4, 
+				             (BitAction)((1-GPIO_ReadOutputDataBit(GPIOA, GPIO_Pin_4))));
+		EXTI_ClearITPendingBit(EXTI_Line0);     //清除中断标志位
+	}  
+}
+
+
 /******************************************************************************/
 /*                 STM32F10x Peripherals Interrupt Handlers                   */
 /*  Add here the Interrupt Handler for the used peripheral(s) (PPP), for the  */

@@ -21,12 +21,20 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x.h"
+#include "led.h"
+#include "exti.h"
 
 
 int main(void)
 {
+	LED_GPIO_config();
+	LED1(ON);
 
-  while (1);
+	/* 中断线配置 */
+	EXTI_PA0_Config(); 
+
+	/* 等待中断 */
+	while (1);
 
 }
 
