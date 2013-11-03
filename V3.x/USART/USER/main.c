@@ -1,32 +1,39 @@
 /**
   ******************************************************************************
-  * @file    Project/STM32F10x_StdPeriph_Template/main.c 
-  * @author  MCD Application Team
-  * @version V3.5.0
-  * @date    08-April-2011
-  * @brief   Main program body
+  * 描述    ：（1）将printf函数重定向到USART1。这样就可以用printf函数将单片机的数据
+  *           打印到PC上的超级终端或串口调试助手。
+  *           （2）自编写格式输出函数USART1_printf。实现同样的输出功能。         
+  * 实验平台：stm32f103c8t6
+  * 硬件连接：------------------------
+  *          | PA9  - USART1(Tx)      |
+  *          | PA10 - USART1(Rx)      |
+  *           ------------------------
+  * 库版本  ：ST3.5.0
+  * 作者    ：zhangwj   
   ******************************************************************************
-  * @attention
+  *  
+  * 在我们的 main.c 文件中要把 stdio.h 这个头文件包含进来，还要在
+  * 编译器中设置一个选项 Use MicroLIB (使用微库)，在 Options for target。
+  * 这个微库是 keil MDK 为嵌入式应用量身定做的 C 库，我们要先具有库，才能重定向。
+  * 勾选使用之后，我们就可以使用 printf() 这个函数了。
   *
-  * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
-  * WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE
-  * TIME. AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY
-  * DIRECT, INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING
-  * FROM THE CONTENT OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE
-  * CODING INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
-  *
-  * <h2><center>&copy; COPYRIGHT 2011 STMicroelectronics</center></h2>
-  ******************************************************************************
-  */  
-
+  **/	
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x.h"
-
+#include "usart1.h"
 
 int main(void)
 {
+	USART1_Config();
 
-  while (1);
+	while (1)
+	{
+		printf("\r\n this is a printf demo \r\n");
+		printf("\r\n zhangwj @110实验室 :) \r\n");
+
+		USART1_printf(USART1, "\r\n 欢迎 This is a USART1_printf demo \r\n");
+		USART1_printf(USART1, "\r\n ("__DATE__ " - " __TIME__ ") \r\n");
+	}
 
 }
 
