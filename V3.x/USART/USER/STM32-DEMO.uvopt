@@ -197,8 +197,8 @@
       <Focus>0</Focus>
       <ColumnNumber>6</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>26</TopLine>
-      <CurrentLine>26</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>1</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -223,10 +223,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>29</ColumnNumber>
+      <ColumnNumber>66</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>73</TopLine>
-      <CurrentLine>83</CurrentLine>
+      <TopLine>56</TopLine>
+      <CurrentLine>56</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\usart1.c</PathWithFileName>
       <FilenameWithoutPath>usart1.c</FilenameWithoutPath>
@@ -1960,13 +1960,13 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>2</ActiveTab>
+      <ActiveTab>0</ActiveTab>
       <Documents>
         <Doc>
           <Name>.\main.c</Name>
           <ColumnNumber>6</ColumnNumber>
-          <TopLine>26</TopLine>
-          <CurrentLine>26</CurrentLine>
+          <TopLine>1</TopLine>
+          <CurrentLine>1</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\USER\stm32f10x_conf.h</Name>
@@ -1976,9 +1976,9 @@
         </Doc>
         <Doc>
           <Name>.\usart1.c</Name>
-          <ColumnNumber>29</ColumnNumber>
-          <TopLine>73</TopLine>
-          <CurrentLine>83</CurrentLine>
+          <ColumnNumber>66</ColumnNumber>
+          <TopLine>56</TopLine>
+          <CurrentLine>56</CurrentLine>
         </Doc>
         <Doc>
           <Name>usart1.h</Name>
