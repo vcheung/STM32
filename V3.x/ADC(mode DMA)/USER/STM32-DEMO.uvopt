@@ -237,10 +237,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>23</ColumnNumber>
+      <ColumnNumber>14</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <TopLine>10</TopLine>
+      <CurrentLine>17</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\adc.c</PathWithFileName>
       <FilenameWithoutPath>adc.c</FilenameWithoutPath>
@@ -360,7 +360,7 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\ADC(mode DMA)\CMSIS\stm32f10x.h</PathWithFilename>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\ADC(mode DMA)\CMSIS\stm32f10x.h</PathWithFilename>
     <TopLine>1428</TopLine>
     <CurrentLine>1428</CurrentLine>
     <Constant>0</Constant>
@@ -386,7 +386,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\ADC(mode DMA)\USER\adc.h</PathWithFilename>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\ADC(mode DMA)\USER\adc.h</PathWithFilename>
     <TopLine>1</TopLine>
     <CurrentLine>5</CurrentLine>
     <Constant>0</Constant>
@@ -412,7 +412,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\ADC(mode DMA)\USER\stm32f10x_conf.h</PathWithFilename>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\ADC(mode DMA)\USER\stm32f10x_conf.h</PathWithFilename>
     <TopLine>25</TopLine>
     <CurrentLine>36</CurrentLine>
     <Constant>0</Constant>
@@ -2044,9 +2044,9 @@
         </Doc>
         <Doc>
           <Name>.\adc.c</Name>
-          <ColumnNumber>23</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
+          <ColumnNumber>14</ColumnNumber>
+          <TopLine>10</TopLine>
+          <CurrentLine>17</CurrentLine>
         </Doc>
         <Doc>
           <Name>adc.h</Name>
