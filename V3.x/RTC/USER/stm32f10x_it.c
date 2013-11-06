@@ -32,6 +32,7 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
+extern __IO uint32_t TimeDisplay;
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 
@@ -154,7 +155,34 @@ void SysTick_Handler(void)
 
 /**
   * @}
-  */ 
-
+  */
+   
+void RTC_IRQHandler(void)
+{
+	/* 判断中断标志位_秒中断 是否被置位 */
+	if (RTC_GetITStatus(RTC_IT_SEC) != RESET)
+	{
+		/* Clear the RTC Second interrupt */
+		RTC_ClearITPendingBit(RTC_IT_SEC);
+		
+		/* Toggle GPIO_LED pin 6 each 1s */
+		//GPIO_WriteBit(GPIO_LED, GPIO_Pin_6, (BitAction)(1 - GPIO_ReadOutputDataBit(GPIO_LED, GPIO_Pin_6)));
+		
+		/* Enable time update
+		 * TimeDisplay是一个标志位，只有等于1时才让串口发送时 间数据，即让串口一秒发一次时间值 */
+		TimeDisplay = 1;
+		
+		/* Wait until last write operation on RTC registers has finished */
+		RTC_WaitForLastTask();
+		/* Reset RTC Counter when Time is 23:59:59
+		 * 当时间走到23:59:59秒时RTC计数器中的值清零，0x00015180=23*3600+56*60+59 */
+		if (RTC_GetCounter() == 0x00015180)
+		{
+			RTC_SetCounter(0x0);
+			/* Wait until last write operation on RTC registers has finished */
+			RTC_WaitForLastTask();
+		}
+	}
+}
 
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/

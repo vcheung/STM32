@@ -7,9 +7,9 @@
 ..\Output\misc.o: ..\USER\stm32f10x_conf.h
 ..\Output\misc.o: ..\FWlib\inc\stm32f10x_bkp.h
 ..\Output\misc.o: ..\CMSIS\stm32f10x.h
-..\Output\misc.o: ..\FWlib\inc\stm32f10x_dma.h
 ..\Output\misc.o: ..\FWlib\inc\stm32f10x_gpio.h
 ..\Output\misc.o: ..\FWlib\inc\stm32f10x_pwr.h
 ..\Output\misc.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\Output\misc.o: ..\FWlib\inc\stm32f10x_rtc.h
 ..\Output\misc.o: ..\FWlib\inc\stm32f10x_usart.h
 ..\Output\misc.o: ..\FWlib\inc\misc.h
