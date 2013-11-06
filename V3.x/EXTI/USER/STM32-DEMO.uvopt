@@ -223,10 +223,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>5</ColumnNumber>
+      <ColumnNumber>44</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>23</TopLine>
-      <CurrentLine>35</CurrentLine>
+      <TopLine>15</TopLine>
+      <CurrentLine>31</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\exti.c</PathWithFileName>
       <FilenameWithoutPath>exti.c</FilenameWithoutPath>
@@ -346,9 +346,9 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\EXTI\USER\stm32f10x_conf.h</PathWithFilename>
-    <TopLine>25</TopLine>
-    <CurrentLine>25</CurrentLine>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\EXTI\CMSIS\stm32f10x.h</PathWithFilename>
+    <TopLine>998</TopLine>
+    <CurrentLine>1010</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -372,33 +372,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\EXTI\USER\exti.h</PathWithFilename>
-    <TopLine>1</TopLine>
-    <CurrentLine>5</CurrentLine>
-    <Constant>0</Constant>
-    <WindowPosition>
-      <length>0</length>
-      <flags>0</flags>
-      <showCmd>0</showCmd>
-      <MinPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MinPosition>
-      <MaxPosition>
-        <xPos>0</xPos>
-        <yPos>0</yPos>
-      </MaxPosition>
-      <NormalPosition>
-        <Top>0</Top>
-        <Left>0</Left>
-        <Right>0</Right>
-        <Bottom>0</Bottom>
-      </NormalPosition>
-    </WindowPosition>
-  </AlienFiles>
-
-  <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\EXTI\FWlib\inc\stm32f10x_gpio.h</PathWithFilename>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\EXTI\FWlib\inc\stm32f10x_gpio.h</PathWithFilename>
     <TopLine>131</TopLine>
     <CurrentLine>131</CurrentLine>
     <Constant>0</Constant>
@@ -424,9 +398,35 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\EXTI\CMSIS\stm32f10x.h</PathWithFilename>
-    <TopLine>998</TopLine>
-    <CurrentLine>1010</CurrentLine>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\EXTI\USER\stm32f10x_conf.h</PathWithFilename>
+    <TopLine>25</TopLine>
+    <CurrentLine>25</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\EXTI\USER\exti.h</PathWithFilename>
+    <TopLine>1</TopLine>
+    <CurrentLine>5</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -2040,7 +2040,7 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>5</ActiveTab>
+      <ActiveTab>1</ActiveTab>
       <Documents>
         <Doc>
           <Name>exti.h</Name>
@@ -2050,9 +2050,9 @@
         </Doc>
         <Doc>
           <Name>.\exti.c</Name>
-          <ColumnNumber>5</ColumnNumber>
-          <TopLine>23</TopLine>
-          <CurrentLine>35</CurrentLine>
+          <ColumnNumber>44</ColumnNumber>
+          <TopLine>15</TopLine>
+          <CurrentLine>31</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\main.c</Name>
