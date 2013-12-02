@@ -195,10 +195,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>8</ColumnNumber>
+      <ColumnNumber>29</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>13</TopLine>
-      <CurrentLine>29</CurrentLine>
+      <TopLine>18</TopLine>
+      <CurrentLine>33</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -211,8 +211,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>80</TopLine>
+      <CurrentLine>80</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\stm32f10x_it.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_it.c</FilenameWithoutPath>
@@ -223,10 +223,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>66</ColumnNumber>
+      <ColumnNumber>7</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>56</TopLine>
-      <CurrentLine>56</CurrentLine>
+      <TopLine>43</TopLine>
+      <CurrentLine>43</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\usart1.c</PathWithFileName>
       <FilenameWithoutPath>usart1.c</FilenameWithoutPath>
@@ -318,7 +318,7 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\USART\USER\usart1.h</PathWithFilename>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\USART\USER\usart1.h</PathWithFilename>
     <TopLine>1</TopLine>
     <CurrentLine>11</CurrentLine>
     <Constant>0</Constant>
@@ -344,7 +344,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\USART\USER\stm32f10x_conf.h</PathWithFilename>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\USART\USER\stm32f10x_conf.h</PathWithFilename>
     <TopLine>34</TopLine>
     <CurrentLine>48</CurrentLine>
     <Constant>0</Constant>
@@ -1960,13 +1960,13 @@
     <ActiveMDIGroup>0</ActiveMDIGroup>
     <MDIGroup>
       <Size>100</Size>
-      <ActiveTab>0</ActiveTab>
+      <ActiveTab>2</ActiveTab>
       <Documents>
         <Doc>
           <Name>.\main.c</Name>
-          <ColumnNumber>8</ColumnNumber>
-          <TopLine>13</TopLine>
-          <CurrentLine>29</CurrentLine>
+          <ColumnNumber>29</ColumnNumber>
+          <TopLine>18</TopLine>
+          <CurrentLine>33</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\USER\stm32f10x_conf.h</Name>
@@ -1976,15 +1976,21 @@
         </Doc>
         <Doc>
           <Name>.\usart1.c</Name>
-          <ColumnNumber>66</ColumnNumber>
-          <TopLine>56</TopLine>
-          <CurrentLine>56</CurrentLine>
+          <ColumnNumber>7</ColumnNumber>
+          <TopLine>43</TopLine>
+          <CurrentLine>43</CurrentLine>
         </Doc>
         <Doc>
           <Name>usart1.h</Name>
           <ColumnNumber>14</ColumnNumber>
           <TopLine>1</TopLine>
           <CurrentLine>11</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>.\stm32f10x_it.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>80</TopLine>
+          <CurrentLine>80</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

@@ -195,10 +195,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>62</ColumnNumber>
+      <ColumnNumber>41</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>7</TopLine>
-      <CurrentLine>7</CurrentLine>
+      <TopLine>23</TopLine>
+      <CurrentLine>36</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -237,10 +237,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>14</ColumnNumber>
+      <ColumnNumber>8</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>10</TopLine>
-      <CurrentLine>17</CurrentLine>
+      <TopLine>11</TopLine>
+      <CurrentLine>30</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\adc.c</PathWithFileName>
       <FilenameWithoutPath>adc.c</FilenameWithoutPath>
@@ -415,6 +415,32 @@
     <PathWithFilename>F:\GitHub\STM32\V3.x\ADC(mode DMA)\USER\stm32f10x_conf.h</PathWithFilename>
     <TopLine>25</TopLine>
     <CurrentLine>36</CurrentLine>
+    <Constant>0</Constant>
+    <WindowPosition>
+      <length>0</length>
+      <flags>0</flags>
+      <showCmd>0</showCmd>
+      <MinPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MinPosition>
+      <MaxPosition>
+        <xPos>0</xPos>
+        <yPos>0</yPos>
+      </MaxPosition>
+      <NormalPosition>
+        <Top>0</Top>
+        <Left>0</Left>
+        <Right>0</Right>
+        <Bottom>0</Bottom>
+      </NormalPosition>
+    </WindowPosition>
+  </AlienFiles>
+
+  <AlienFiles>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\ADC(mode DMA)\FWlib\inc\stm32f10x_dma.h</PathWithFilename>
+    <TopLine>79</TopLine>
+    <CurrentLine>85</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -2032,9 +2058,9 @@
       <Documents>
         <Doc>
           <Name>.\main.c</Name>
-          <ColumnNumber>62</ColumnNumber>
-          <TopLine>7</TopLine>
-          <CurrentLine>7</CurrentLine>
+          <ColumnNumber>41</ColumnNumber>
+          <TopLine>23</TopLine>
+          <CurrentLine>36</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\USER\stm32f10x_conf.h</Name>
@@ -2044,9 +2070,9 @@
         </Doc>
         <Doc>
           <Name>.\adc.c</Name>
-          <ColumnNumber>14</ColumnNumber>
-          <TopLine>10</TopLine>
-          <CurrentLine>17</CurrentLine>
+          <ColumnNumber>8</ColumnNumber>
+          <TopLine>11</TopLine>
+          <CurrentLine>30</CurrentLine>
         </Doc>
         <Doc>
           <Name>adc.h</Name>
@@ -2065,6 +2091,12 @@
           <ColumnNumber>20</ColumnNumber>
           <TopLine>1428</TopLine>
           <CurrentLine>1428</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\FWlib\inc\stm32f10x_dma.h</Name>
+          <ColumnNumber>1</ColumnNumber>
+          <TopLine>79</TopLine>
+          <CurrentLine>85</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

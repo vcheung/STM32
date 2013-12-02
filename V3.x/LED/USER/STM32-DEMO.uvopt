@@ -304,7 +304,7 @@
   </Group>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\LED\USER\stm32f10x_conf.h</PathWithFilename>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\LED\USER\stm32f10x_conf.h</PathWithFilename>
     <TopLine>28</TopLine>
     <CurrentLine>46</CurrentLine>
     <Constant>0</Constant>
@@ -330,7 +330,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\LED\USER\led.h</PathWithFilename>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\LED\USER\led.h</PathWithFilename>
     <TopLine>5</TopLine>
     <CurrentLine>19</CurrentLine>
     <Constant>0</Constant>
@@ -356,7 +356,7 @@
   </AlienFiles>
 
   <AlienFiles>
-    <PathWithFilename>F:\GitHub\STM32\STM32\V3.x\LED\CMSIS\stm32f10x.h</PathWithFilename>
+    <PathWithFilename>F:\GitHub\STM32\V3.x\LED\CMSIS\stm32f10x.h</PathWithFilename>
     <TopLine>1</TopLine>
     <CurrentLine>1</CurrentLine>
     <Constant>0</Constant>
